@@ -1,0 +1,550 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" assignedExecutableTargets="true" buildAllGenerated="true">
+    <generated>
+      <config projectName="Assignment1" targetName="Assignment1" />
+      <config projectName="Assignment1" targetName="foo" />
+    </generated>
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="false" GENERATION_OPTIONS="-DCMAKE_C_COMPILER=/opt/local/bin/gcc -DCMAKE_CXX_COMPILER=/opt/local/bin/g++" GENERATION_PASS_SYSTEM_ENVIRONMENT="true">
+    <ADDITIONAL_GENERATION_ENVIRONMENT>
+      <envs />
+    </ADDITIONAL_GENERATION_ENVIRONMENT>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f3ab8047-046a-423c-a34c-d4552162ed7f" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/cyberpc.h" afterPath="$PROJECT_DIR$/include/cyberpc.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cyberdns.cpp" afterPath="$PROJECT_DIR$/src/cyberdns.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cyberpc.cpp" afterPath="$PROJECT_DIR$/src/cyberpc.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cyberworm.cpp" afterPath="$PROJECT_DIR$/src/cyberworm.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main.cpp" afterPath="$PROJECT_DIR$/src/main.cpp" />
+    </list>
+    <ignored path="Assignment1.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="Assignment1" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.6407035">
+              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="makefile" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/makefile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="25" column="79" selection-start-line="25" selection-start-column="79" selection-end-line="25" selection-end-column="79" />
+              <folding>
+                <element signature="e#69#88#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cyberpc.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cyberpc.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cyberdns.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cyberdns.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cyberdns.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/include/cyberdns.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="e#38#57#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="map" pinned="false" current-in-tab="false">
+        <entry file="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/map">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="712" column="0" selection-start-line="712" selection-start-column="0" selection-end-line="712" selection-end-column="0" />
+              <folding>
+                <marker date="1438191237000" expanded="true" signature="20970:21026" placeholder="{...}" />
+                <marker date="1438191237000" expanded="true" signature="21149:21472" placeholder="{...}" />
+                <marker date="1438191237000" expanded="true" signature="23562:25819" placeholder="{...}" />
+                <marker date="1438191237000" expanded="true" signature="24943:25024" placeholder="{...}" />
+                <marker date="1438191237000" expanded="true" signature="25182:25263" placeholder="{...}" />
+                <marker date="1438191237000" expanded="false" signature="25575:25612" placeholder="&lt;,,,&gt;" />
+                <marker date="1438191237000" expanded="false" signature="25657:25694" placeholder="&lt;,,,&gt;" />
+                <marker date="1438191237000" expanded="false" signature="25744:25760" placeholder="&lt;&gt;" />
+                <marker date="1438191237000" expanded="true" signature="25902:28449" placeholder="{...}" />
+                <marker date="1438191237000" expanded="true" signature="27515:27602" placeholder="{...}" />
+                <marker date="1438191237000" expanded="true" signature="27772:27859" placeholder="{...}" />
+                <marker date="1438191237000" expanded="false" signature="28190:28227" placeholder="&lt;,,,&gt;" />
+                <marker date="1438191237000" expanded="false" signature="28272:28309" placeholder="&lt;,,,&gt;" />
+                <marker date="1438191237000" expanded="false" signature="28359:28389" placeholder="&lt;,,&gt;" />
+                <marker date="1438191237000" expanded="true" signature="28611:43720" placeholder="{...}" />
+                <marker date="1438191237000" expanded="true" signature="29282:29604" placeholder="{...}" />
+                <marker date="1438191237000" expanded="false" signature="31615:31646" placeholder="&lt;_InputIterator&gt;" />
+                <marker date="1438191237000" expanded="true" signature="31824:31865" placeholder="{...}" />
+                <marker date="1438191237000" expanded="false" signature="31871:31902" placeholder="&lt;_InputIterator&gt;" />
+                <marker date="1438191237000" expanded="true" signature="32096:32137" placeholder="{...}" />
+                <marker date="1438191237000" expanded="true" signature="32454:32509" placeholder="{...}" />
+                <marker date="1438191237000" expanded="true" signature="32584:32946" placeholder="{...}" />
+                <marker date="1438191237000" expanded="true" signature="33156:33167" placeholder="{...}" />
+                <marker date="1438191237000" expanded="true" signature="33347:33432" placeholder="{...}" />
+                <marker date="1438191237000" expanded="true" signature="33684:33741" placeholder="{...}" />
+                <marker date="1438191237000" expanded="true" signature="33915:33972" placeholder="{...}" />
+                <marker date="1438191237000" expanded="true" signature="34243:34343" placeholder="{...}" />
+                <marker date="1438191237000" expanded="true" signature="34502:34513" placeholder="{...}" />
+                <marker date="1438191237000" expanded="true" signature="34653:34708" placeholder="{...}" />
+                <marker date="1438191237000" expanded="false" signature="36935:36960" placeholder="&lt;..._Args&gt;" />
+                <marker date="1438191237000" expanded="false" signature="37031:37056" placeholder="&lt;..._Args&gt;" />
+                <marker date="1438191237000" expanded="false" signature="37177:37287" placeholder="&lt;_Pp,=enable_if&lt;is_constructible&lt;value_type,_Pp&gt;::value&gt;::type&gt;" />
+                <marker date="1438191237000" expanded="false" signature="37446:37556" placeholder="&lt;_Pp,=enable_if&lt;is_constructible&lt;value_type,_Pp&gt;::value&gt;::type&gt;" />
+                <marker date="1438191237000" expanded="false" signature="38078:38109" placeholder="&lt;_InputIterator&gt;" />
+                <marker date="1438191237000" expanded="true" signature="38212:38328" placeholder="{...}" />
+                <marker date="1438191237000" expanded="false" signature="43084:43104" placeholder="&lt;_A0&gt;" />
+                <marker date="1438191237000" expanded="false" signature="43255:43302" placeholder="&lt;_A0,_A1,..._Args&gt;" />
+                <marker date="1438191237000" expanded="true" signature="56231:56253" placeholder="{...}" />
+                <marker date="1438191237000" expanded="true" signature="56419:71051" placeholder="{...}" />
+                <marker date="1438191237000" expanded="true" signature="57090:57425" placeholder="{...}" />
+                <marker date="1438191237000" expanded="false" signature="59487:59518" placeholder="&lt;_InputIterator&gt;" />
+                <marker date="1438191237000" expanded="true" signature="59705:59746" placeholder="{...}" />
+                <marker date="1438191237000" expanded="false" signature="59752:59783" placeholder="&lt;_InputIterator&gt;" />
+                <marker date="1438191237000" expanded="true" signature="59986:60027" placeholder="{...}" />
+                <marker date="1438191237000" expanded="true" signature="60465:60520" placeholder="{...}" />
+                <marker date="1438191237000" expanded="true" signature="60605:60967" placeholder="{...}" />
+                <marker date="1438191237000" expanded="true" signature="61187:61198" placeholder="{...}" />
+                <marker date="1438191237000" expanded="true" signature="61398:61483" placeholder="{...}" />
+                <marker date="1438191237000" expanded="true" signature="61740:61797" placeholder="{...}" />
+                <marker date="1438191237000" expanded="true" signature="61976:62033" placeholder="{...}" />
+                <marker date="1438191237000" expanded="true" signature="62319:62418" placeholder="{...}" />
+                <marker date="1438191237000" expanded="true" signature="62582:62593" placeholder="{...}" />
+                <marker date="1438191237000" expanded="true" signature="62743:62798" placeholder="{...}" />
+                <marker date="1438191237000" expanded="false" signature="64756:64781" placeholder="&lt;..._Args&gt;" />
+                <marker date="1438191237000" expanded="false" signature="64840:64865" placeholder="&lt;..._Args&gt;" />
+                <marker date="1438191237000" expanded="false" signature="64986:65096" placeholder="&lt;_Pp,=enable_if&lt;is_constructible&lt;value_type,_Pp&gt;::value&gt;::type&gt;" />
+                <marker date="1438191237000" expanded="false" signature="65242:65352" placeholder="&lt;_Pp,=enable_if&lt;is_constructible&lt;value_type,_Pp&gt;::value&gt;::type&gt;" />
+                <marker date="1438191237000" expanded="false" signature="65843:65874" placeholder="&lt;_InputIterator&gt;" />
+                <marker date="1438191237000" expanded="true" signature="65977:66109" placeholder="{...}" />
+                <marker date="1438191237000" expanded="false" signature="70720:70740" placeholder="&lt;_A0&gt;" />
+                <marker date="1438191237000" expanded="false" signature="70839:70886" placeholder="&lt;_A0,_A1,..._Args&gt;" />
+                <marker date="1438191237000" expanded="true" signature="76610:76632" placeholder="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main.cpp" />
+        <option value="$PROJECT_DIR$/src/cyberdns.cpp" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsBuildToolPackageJson" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1280" />
+    <option name="height" value="725" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Bitwise operation issuesJavaScript</id>
+          </State>
+          <State>
+            <id>C/C++</id>
+          </State>
+          <State>
+            <id>Control flow issuesJavaScript</id>
+          </State>
+          <State>
+            <id>DOM issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Data flow issuesJavaScript</id>
+          </State>
+          <State>
+            <id>GeneralC/C++</id>
+          </State>
+          <State>
+            <id>GeneralJavaScript</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>Potentially confusing code constructsJavaScript</id>
+          </State>
+          <State>
+            <id>RELAX NG</id>
+          </State>
+          <State>
+            <id>Unused codeC/C++</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>C/C++</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Assignment1" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Assignment1" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Assignment1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Assignment1" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Assignment1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Assignment1" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Assignment1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="include" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+  </component>
+  <component name="RunManager" selected="Application.Build All">
+    <configuration default="true" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS="FALSE" TEST_MODE="SUITE_TEST">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS="FALSE">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Assignment1" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Assignment1" TARGET_NAME="Assignment1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Assignment1" RUN_TARGET_NAME="Assignment1">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Build All" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="file://$PROJECT_DIR$/bin" PASS_PARENT_ENVS="FALSE" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Assignment1" RUN_TARGET_NAME="Assignment1" EXPLICIT_BUILD_TARGET_NAME="all">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="foo" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Assignment1" TARGET_NAME="foo" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Assignment1" RUN_TARGET_NAME="foo">
+      <envs />
+      <method />
+    </configuration>
+    <list size="3">
+      <item index="0" class="java.lang.String" itemvalue="Application.Assignment1" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Build All" />
+      <item index="2" class="java.lang.String" itemvalue="Application.foo" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f3ab8047-046a-423c-a34c-d4552162ed7f" name="Default" comment="" />
+      <created>1447547909943</created>
+      <option name="number" value="Default" />
+      <updated>1447547909943</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1280" height="725" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24609375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30945122" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="79" selection-start-line="25" selection-start-column="79" selection-end-line="25" selection-end-column="79" />
+          <folding>
+            <element signature="e#69#88#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cyberpc.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/map">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="712" column="0" selection-start-line="712" selection-start-column="0" selection-end-line="712" selection-end-column="0" />
+          <folding>
+            <marker date="1438191237000" expanded="true" signature="20970:21026" placeholder="{...}" />
+            <marker date="1438191237000" expanded="true" signature="21149:21472" placeholder="{...}" />
+            <marker date="1438191237000" expanded="true" signature="23562:25819" placeholder="{...}" />
+            <marker date="1438191237000" expanded="true" signature="24943:25024" placeholder="{...}" />
+            <marker date="1438191237000" expanded="true" signature="25182:25263" placeholder="{...}" />
+            <marker date="1438191237000" expanded="false" signature="25575:25612" placeholder="&lt;,,,&gt;" />
+            <marker date="1438191237000" expanded="false" signature="25657:25694" placeholder="&lt;,,,&gt;" />
+            <marker date="1438191237000" expanded="false" signature="25744:25760" placeholder="&lt;&gt;" />
+            <marker date="1438191237000" expanded="true" signature="25902:28449" placeholder="{...}" />
+            <marker date="1438191237000" expanded="true" signature="27515:27602" placeholder="{...}" />
+            <marker date="1438191237000" expanded="true" signature="27772:27859" placeholder="{...}" />
+            <marker date="1438191237000" expanded="false" signature="28190:28227" placeholder="&lt;,,,&gt;" />
+            <marker date="1438191237000" expanded="false" signature="28272:28309" placeholder="&lt;,,,&gt;" />
+            <marker date="1438191237000" expanded="false" signature="28359:28389" placeholder="&lt;,,&gt;" />
+            <marker date="1438191237000" expanded="true" signature="28611:43720" placeholder="{...}" />
+            <marker date="1438191237000" expanded="true" signature="29282:29604" placeholder="{...}" />
+            <marker date="1438191237000" expanded="false" signature="31615:31646" placeholder="&lt;_InputIterator&gt;" />
+            <marker date="1438191237000" expanded="true" signature="31824:31865" placeholder="{...}" />
+            <marker date="1438191237000" expanded="false" signature="31871:31902" placeholder="&lt;_InputIterator&gt;" />
+            <marker date="1438191237000" expanded="true" signature="32096:32137" placeholder="{...}" />
+            <marker date="1438191237000" expanded="true" signature="32454:32509" placeholder="{...}" />
+            <marker date="1438191237000" expanded="true" signature="32584:32946" placeholder="{...}" />
+            <marker date="1438191237000" expanded="true" signature="33156:33167" placeholder="{...}" />
+            <marker date="1438191237000" expanded="true" signature="33347:33432" placeholder="{...}" />
+            <marker date="1438191237000" expanded="true" signature="33684:33741" placeholder="{...}" />
+            <marker date="1438191237000" expanded="true" signature="33915:33972" placeholder="{...}" />
+            <marker date="1438191237000" expanded="true" signature="34243:34343" placeholder="{...}" />
+            <marker date="1438191237000" expanded="true" signature="34502:34513" placeholder="{...}" />
+            <marker date="1438191237000" expanded="true" signature="34653:34708" placeholder="{...}" />
+            <marker date="1438191237000" expanded="false" signature="36935:36960" placeholder="&lt;..._Args&gt;" />
+            <marker date="1438191237000" expanded="false" signature="37031:37056" placeholder="&lt;..._Args&gt;" />
+            <marker date="1438191237000" expanded="false" signature="37177:37287" placeholder="&lt;_Pp,=enable_if&lt;is_constructible&lt;value_type,_Pp&gt;::value&gt;::type&gt;" />
+            <marker date="1438191237000" expanded="false" signature="37446:37556" placeholder="&lt;_Pp,=enable_if&lt;is_constructible&lt;value_type,_Pp&gt;::value&gt;::type&gt;" />
+            <marker date="1438191237000" expanded="false" signature="38078:38109" placeholder="&lt;_InputIterator&gt;" />
+            <marker date="1438191237000" expanded="true" signature="38212:38328" placeholder="{...}" />
+            <marker date="1438191237000" expanded="false" signature="43084:43104" placeholder="&lt;_A0&gt;" />
+            <marker date="1438191237000" expanded="false" signature="43255:43302" placeholder="&lt;_A0,_A1,..._Args&gt;" />
+            <marker date="1438191237000" expanded="true" signature="56231:56253" placeholder="{...}" />
+            <marker date="1438191237000" expanded="true" signature="56419:71051" placeholder="{...}" />
+            <marker date="1438191237000" expanded="true" signature="57090:57425" placeholder="{...}" />
+            <marker date="1438191237000" expanded="false" signature="59487:59518" placeholder="&lt;_InputIterator&gt;" />
+            <marker date="1438191237000" expanded="true" signature="59705:59746" placeholder="{...}" />
+            <marker date="1438191237000" expanded="false" signature="59752:59783" placeholder="&lt;_InputIterator&gt;" />
+            <marker date="1438191237000" expanded="true" signature="59986:60027" placeholder="{...}" />
+            <marker date="1438191237000" expanded="true" signature="60465:60520" placeholder="{...}" />
+            <marker date="1438191237000" expanded="true" signature="60605:60967" placeholder="{...}" />
+            <marker date="1438191237000" expanded="true" signature="61187:61198" placeholder="{...}" />
+            <marker date="1438191237000" expanded="true" signature="61398:61483" placeholder="{...}" />
+            <marker date="1438191237000" expanded="true" signature="61740:61797" placeholder="{...}" />
+            <marker date="1438191237000" expanded="true" signature="61976:62033" placeholder="{...}" />
+            <marker date="1438191237000" expanded="true" signature="62319:62418" placeholder="{...}" />
+            <marker date="1438191237000" expanded="true" signature="62582:62593" placeholder="{...}" />
+            <marker date="1438191237000" expanded="true" signature="62743:62798" placeholder="{...}" />
+            <marker date="1438191237000" expanded="false" signature="64756:64781" placeholder="&lt;..._Args&gt;" />
+            <marker date="1438191237000" expanded="false" signature="64840:64865" placeholder="&lt;..._Args&gt;" />
+            <marker date="1438191237000" expanded="false" signature="64986:65096" placeholder="&lt;_Pp,=enable_if&lt;is_constructible&lt;value_type,_Pp&gt;::value&gt;::type&gt;" />
+            <marker date="1438191237000" expanded="false" signature="65242:65352" placeholder="&lt;_Pp,=enable_if&lt;is_constructible&lt;value_type,_Pp&gt;::value&gt;::type&gt;" />
+            <marker date="1438191237000" expanded="false" signature="65843:65874" placeholder="&lt;_InputIterator&gt;" />
+            <marker date="1438191237000" expanded="true" signature="65977:66109" placeholder="{...}" />
+            <marker date="1438191237000" expanded="false" signature="70720:70740" placeholder="&lt;_A0&gt;" />
+            <marker date="1438191237000" expanded="false" signature="70839:70886" placeholder="&lt;_A0,_A1,..._Args&gt;" />
+            <marker date="1438191237000" expanded="true" signature="76610:76632" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/cyberdns.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#38#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cyberdns.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/makefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6407035">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

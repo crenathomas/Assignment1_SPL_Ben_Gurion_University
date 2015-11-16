@@ -9,7 +9,7 @@
 class CyberExpert
 {
 private:
-	const std::string 	cyber_expert_name_;
+	const std::string cyber_expert_name_;
     const int cyber_expert_work_time_;
     const int cyber_expert_rest_time_;
     const int cyber_expert_efficiency_;

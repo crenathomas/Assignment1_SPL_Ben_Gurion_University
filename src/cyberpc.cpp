@@ -1,40 +1,45 @@
-#include <iostream>
-#include <string>
 #include "../include/cyberpc.h"
-#include <boost/property_tree/ptree.hpp>
-#include <boost/property_tree/xml_parser.hpp>
 
 using namespace std;
 
-CyberPC::CyberPC(string pc_os,string pc_name):cyber_pc_os_(pc_os),cyber_pc_name_(pc_name){
-        cyber_pc_os_ = cyber_pc_os;
-        cyber_pc_name_ = cyber_pc_name;                        // Only use this constructor
-    } 
+CyberPC::CyberPC(string cyber_pc_os,string cyber_pc_name):
+cyber_pc_os_(cyber_pc_os),cyber_pc_name_(cyber_pc_name){
+    vector<string> cyber_pc_connections_;
     
+}
 
-    const string getName(){
-        return string cyber_pc_name_;
+
+const string CyberPC::getName(){
+    return cyber_pc_name_;
+}
+
+
+void CyberPC::AddConnection(string  second_pc){
+    cyber_pc_connections_.push_back(second_pc);               // Add a connection to this PC
+}
+
+void CyberPC::Infect(CyberWorm & worm){                              //refers to the copied constructor in class cyberworm.pcc where other, in this case, is worm here
+    cyber_worm_ = &worm;  
+    cyber_pc_time_to_infect_ = worm.getTime();                                                         // Add a worm to this PC
+}
+
+void CyberPC::Run(const CyberDNS & server){                           // Activate PC and infect others if worm is active
+    if(cyber_pc_time_to_infect_ == 0){
+        vector<string> cyber_pc_connections_;
+    for (vector<string>::iterator it = cyber_pc_connections_.begin();
+        it != cyber_pc_connections_.end(); ++it){
+            server.GetCyberPC(*it).Infect(*cyber_worm_);
     }
-
-    const string getWorm(){
-        return yber_worm_;
+    }else{
+        cyber_pc_time_to_infect_ --;
     }
+}
 
-    void AddConnection(string  second_pc){
-        cyber_pc_connections_.push_back second_pc;               // Add a connection to this PC
-    }                
+void CyberPC::Disinfect(){                                           // called by cyber expert, disinfect PC
+    this->cyber_worm_ = NULL;
+}
 
-    void Infect(CyberWorm & worm){                              //refers to the copied constructor in class cyberworm.pcc where other, in this case, is worm here
-                                                                // Add a worm to this PC
-    }
-                                                                  
-    void Run(const CyberDNS & server){                           // Activate PC and infect others if worm is active
-
-    }                             
-    void Disinfect();                                            // called by cyber expert, disinfect PC
-    //Add additional functions here if necessary
-    
-};
+        //Add additional functions here if necessarys
 
 
 
@@ -44,7 +49,7 @@ CyberPC::CyberPC(string pc_os,string pc_name):cyber_pc_os_(pc_os),cyber_pc_name_
 
     // read the xml file
     read_xml("xml/computers.xml", pt);
-    
+
     // iterate over the wires
     for (ptree::const_iterator it = pt.begin(); it != pt.end(); ++it) {
         cout << "Node key: " + it->first << "\n";
