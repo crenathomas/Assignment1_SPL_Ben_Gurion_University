@@ -11,3 +11,9 @@ this->cyber_expert_efficiency_(cyber_expert_efficiency){}
 void CyberExpert::Clean(CyberPC & cyber_pc){
   cyber_pc.Disinfect();
 }
+
+void CyberExpert::ClockIn(){
+    for(int i = 0; i<= it-> second.get<int>("efficiency"); i++){ 
+        CyberExpert.Clean(expert)
+    }
+}

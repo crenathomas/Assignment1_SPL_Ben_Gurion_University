@@ -19,7 +19,7 @@ private:
 public:
     CyberPC(std::string cyber_pc_os, std::string cyber_pc_name);// Only use this constructor
     const std::string getName();
-    void AddConnection(std::string  second_pc);                 // Add a connection to this PC
+    void AddConnection(std::string second_pc);                 // Add a connection to this PC
     void Infect(CyberWorm & worm);                              // Add a worm to this PC
     void Run(const CyberDNS & server);                          // Activate PC and infect others if worm is active
     void Disinfect();                                           // called by cyber expert, disinfect PC

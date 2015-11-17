@@ -4,8 +4,7 @@ using namespace std;
 
 CyberPC::CyberPC(string cyber_pc_os,string cyber_pc_name):
 cyber_pc_os_(cyber_pc_os),cyber_pc_name_(cyber_pc_name){
-    vector<string> cyber_pc_connections_;
-    
+    vector<string> cyber_pc_connections_;   
 }
 
 
@@ -14,7 +13,7 @@ const string CyberPC::getName(){
 }
 
 
-void CyberPC::AddConnection(string  second_pc){
+void CyberPC::AddConnection(string second_pc){
     cyber_pc_connections_.push_back(second_pc);               // Add a connection to this PC
 }
 
@@ -32,6 +31,7 @@ void CyberPC::Run(const CyberDNS & server){                           // Activat
     }
     }else{
         cyber_pc_time_to_infect_ --;
+        cout << "not time to infect"<< endl;
     }
 }
 
