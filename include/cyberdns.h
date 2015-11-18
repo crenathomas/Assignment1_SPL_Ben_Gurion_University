@@ -1,3 +1,5 @@
+#endif
+
 #ifndef CYBERDNS_H
 #define CYBERDNS_H
 #include <iostream>
@@ -7,7 +9,8 @@
 
 class CyberPC; //Forward deceleration
 
-class CyberDNS {
+class CyberDNS
+{
 private:
     std::map<const std::string, CyberPC &> cyber_DNS_;	//Hash map to hold PC names and pointers
 

@@ -12,8 +12,12 @@ void CyberExpert::Clean(CyberPC & cyber_pc){
   cyber_pc.Disinfect();
 }
 
-void CyberExpert::ClockIn(){
-    for(int i = 0; i<= it-> second.get<int>("efficiency"); i++){ 
-        CyberExpert.Clean(expert)
-    }
+void CyberExpert::ClockIn(vector<string> cyberPCs){
+	//for(vector<int>::iterator it = cyberPCs.begin() ; it != cyberPCs.end(); ++it){
+	for(int i = 0; i != this->cyber_expert_efficiency_<int>("efficiency"); i++){ 
+	    CyberDNS * cyberPCs;
+	    this.GetCyberPC(it)
+	    this->Clean(i*);
+	    }
+	}
 }

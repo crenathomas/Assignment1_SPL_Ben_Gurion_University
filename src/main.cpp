@@ -55,11 +55,9 @@ void readEvents{
             CyberPC.Infect(it->second.get<string>(CyberWorm));
         }else if(it->first == "clock-in"){
             CyberExpert expert = new CyberExpert(it->second.get<string>("name"),
-                it->second.get<int>("workTime"),it->second.get<int>("restTime"),
-                it->second.get<int>("efficiency"));
+            it->second.get<int>("workTime"),it->second.get<int>("restTime"),
+            it->second.get<int>("efficiency"));
             CyberExpert.ClockIn();
-        }else{
-            
         }
     }
 } 
