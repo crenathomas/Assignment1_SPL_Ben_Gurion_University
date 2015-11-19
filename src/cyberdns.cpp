@@ -1,4 +1,7 @@
 #include "../include/cyberdns.h"
+#include "../include/cyberpc.h"
+#include "../include/cyberexpert.h"
+#include "../include/cyberworm.h"
 
 using namespace std;
 
@@ -14,8 +17,8 @@ CyberPC & CyberDNS::GetCyberPC(const string & cyber_pc_name) const{
 
 vector<string> CyberDNS::GetCyberPCList() {
     vector <string> pcNames;
-    for (map<string, CyberPC &>::iterator it = cyber_DNS_.begin(); it != cyber_DNS_.end(); ++it) {
-       pcNames.push_back(it.first);
+    for (map<const string, CyberPC &>::iterator it = cyber_DNS_.begin(); it != cyber_DNS_.end(); ++it) {
+       pcNames.push_back(it->second);
     }
     return pcNames;
 }

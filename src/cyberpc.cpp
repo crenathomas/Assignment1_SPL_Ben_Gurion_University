@@ -22,11 +22,15 @@ void CyberPC::Infect(CyberWorm & worm){                              //refers to
     cyber_pc_time_to_infect_ = worm.getTime();                                                         // Add a worm to this PC
 }
 
+//bool CyberPC::checkInfection(){
+  //  return true;
+   // if 
+//}
+
 void CyberPC::Run(const CyberDNS & server){                           // Activate PC and infect others if worm is active
     if(cyber_pc_time_to_infect_ == 0){
         vector<string> cyber_pc_connections_;
-    for (vector<string>::iterator it = cyber_pc_connections_.begin();
-        it != cyber_pc_connections_.end(); ++it){
+    for (vector<string>::iterator it = cyber_pc_connections_.begin(); it != cyber_pc_connections_.end(); ++it){
             server.GetCyberPC(*it).Infect(*cyber_worm_);
     }
     }else{

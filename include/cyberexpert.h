@@ -4,6 +4,8 @@
 #include <string>
 #include <vector>
 #include "../include/cyberpc.h"
+#include "../include/cyberdns.h"
+
 
 
 class CyberExpert
@@ -19,6 +21,8 @@ private:
 public:
     CyberExpert(std::string cyber_expert_name_, int cyber_expert_work_time_, int cyber_expert_rest_time_, int cyber_expert_efficiency_);
  	void Clean(CyberPC & cyber_pc); 
+ 	void ClockIn(std::vector<std::string> cyberPCs);
+	int getEfficiency();
 	// Add your own functions here
 };
 

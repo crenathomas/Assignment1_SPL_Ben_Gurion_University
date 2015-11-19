@@ -16,7 +16,10 @@ private:
  
 public:
     CyberWorm(std::string cyber_worm_os, std::string cyber_worm_name, int cyber_worm_dormancy_time);
-	CyberWorm(const CyberWorm& other); //copy constructor;
+	CyberWorm(const CyberWorm& other); 
+	const std::string getOs();
+	const std::string getName();
+	const int getTime();//copy constructor;
 	// Add your own functions here
 };
 
