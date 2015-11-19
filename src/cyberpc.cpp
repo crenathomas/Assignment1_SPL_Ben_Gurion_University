@@ -22,11 +22,6 @@ void CyberPC::Infect(CyberWorm & worm){                              //refers to
     cyber_pc_time_to_infect_ = worm.getTime();                                                         // Add a worm to this PC
 }
 
-//bool CyberPC::checkInfection(){
-  //  return true;
-   // if 
-//}
-
 void CyberPC::Run(const CyberDNS & server){                           // Activate PC and infect others if worm is active
     if(cyber_pc_time_to_infect_ == 0){
         vector<string> cyber_pc_connections_;
@@ -43,22 +38,3 @@ void CyberPC::Disinfect(){                                           // called b
     this->cyber_worm_ = NULL;
 }
 
-        //Add additional functions here if necessarys
-
-
-
-/*int main() {
-    using boost::property_tree::ptree;
-    ptree pt;
-
-    // read the xml file
-    read_xml("xml/computers.xml", pt);
-
-    // iterate over the wires
-    for (ptree::const_iterator it = pt.begin(); it != pt.end(); ++it) {
-        cout << "Node key: " + it->first << "\n";
-        cout << "Name: " + it->second.get<std::string>("name") << "\n";
-        cout << "OS: " + it->second.get<std::string>("os") << "\n";
-    }
-}
-*/
